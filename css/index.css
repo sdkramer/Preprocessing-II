@@ -1,3 +1,17 @@
+.btn {
+  display: block;
+  background-color: #20bf87;
+  margin: 0 10px 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 4%;
+}
+.btn:hover {
+  background-color: #199368;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
