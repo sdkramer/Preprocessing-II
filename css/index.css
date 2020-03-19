@@ -1,6 +1,7 @@
-.btn {
+#dest-btn {
   display: block;
-  background-color: #20bf87;
+  background-color: #639A67;
+  color: #084177;
   margin: 0 10px 20px;
   width: 150px;
   height: 40px;
@@ -9,8 +10,38 @@
   text-align: center;
   padding-top: 4%;
 }
-.btn:hover {
-  background-color: #199368;
+#dest-btn:hover {
+  background-color: #456b48;
+}
+#mount-btn {
+  display: block;
+  background-color: #d1f5d3;
+  color: #7d5e2a;
+  margin: 0 10px 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 4%;
+}
+#mount-btn:hover {
+  background-color: #92e797;
+}
+#isl-btn {
+  display: block;
+  background-color: #ffd3b6;
+  color: #f35588;
+  margin: 0 10px 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 4%;
+}
+#isl-btn:hover {
+  background-color: #ffa56a;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126

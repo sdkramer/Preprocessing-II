@@ -1,17 +1,33 @@
 // Mixins in here
 
-.btn {
+.trip-btn(@btn-color, @btn-fountcolor, @btn-fontsize) {
   display: block;
-  background-color: rgb(32, 191, 135);
+  background-color: @btn-color;
+  color: @btn-fountcolor;
   margin: 0 10px 20px;
   width: 150px;
   height: 40px;
-  font-size: 2rem;
+  font-size: @btn-fontsize;
   border-radius: 10px;
   text-align: center;
   padding-top: 4%;
 
+
+
   &:hover {
-background-color: darken(rgb(32, 191, 135), 10%);
+background-color: darken(@btn-color, 15%);
   }
+}
+
+#dest-btn {
+.trip-btn(#639A67, #084177, 2rem)
+}
+
+#mount-btn {
+.trip-btn(#d1f5d3, #7d5e2a, 2rem)
+}
+
+#isl-btn {
+  .trip-btn(#ffd3b6, #f35588, 2rem)
+
 }
