@@ -7,7 +7,16 @@ nav {
   margin: 20px 0;
   padding: 20px 0;
   border-bottom: 2px dashed lightgray;
+
+  @media @mobile {
+    flex-direction: column;
+  }
  
+  h1 {
+    @media @mobile {
+      padding-bottom: 15px;
+    }
+  }
 
   div {
     display: flex;
